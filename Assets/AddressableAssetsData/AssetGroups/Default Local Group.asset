@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3c5b9a43ade7b5f4bbb223160c30ed09
+  m_SerializeEntries:
+  - m_GUID: 1aeca1bd9f707c245a80c7f103d235f9
+    m_Address: Assets/Course Library/Props/Bad/Skull_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 666ff701b211d6440b7bd44aa7b3abfa
+    m_Address: Assets/Course Library/Props/Bad/SM_Prop_Bomb_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c37bbd09b7daa884ba8b4e07a859a0f2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6aa76bc8d4a793e48b013a9d1194b55f, type: 2}
+    - {fileID: 11400000, guid: ca17a3da0962b65429d160fa72ea50da, type: 2}
