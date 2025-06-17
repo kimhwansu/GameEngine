@@ -378,6 +378,8 @@
 "Assets/Scripts/DI/InjectAttribute.cs"
 "Assets/Scripts/DifficultyButton.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Installers/GameInstaller.cs"
+"Assets/Scripts/Installers/Installer.cs"
 "Assets/Scripts/Target.cs"
 -langversion:9.0
 /deterministic

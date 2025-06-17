@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "C:/\uC720\uB2C8\uD2F0 \uBAA8\uC74C/Proto5/Packages/manifest.json"
+    m_FilePath: C:/GitHub/GameEngine/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 638857651359160424
     m_Hash: 1836125715
   m_LockFileStatus:
-    m_FilePath: "C:/\uC720\uB2C8\uD2F0 \uBAA8\uC74C/Proto5/Packages/packages-lock.json"
+    m_FilePath: C:/GitHub/GameEngine/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,7 +19,7 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: "C:/\uC720\uB2C8\uD2F0 \uBAA8\uC74C/Proto5/Packages"
+m_ProjectPath: C:/GitHub/GameEngine/Packages
 m_EditorVersion: 2022.3.43f1 (85497d293fa1)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.2d.sprite@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -86,7 +86,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.2d.tilemap@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -160,7 +160,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.ads@4.4.2"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.ads@4.4.2
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -280,7 +280,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.5
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.ai.navigation@1.1.5"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.ai.navigation@1.1.5
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -359,7 +359,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.analytics@3.8.1"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.analytics@3.8.1
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -368,39 +368,76 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Analytics Library contains the Analytics Event Tracker component,
     the Data Privacy plug-in, and the Standard Events API.
   status: 0
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.19
+    - 2.0.5
+    - 2.0.11
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 3.0.5
+    - 3.0.9
+    - 3.1.1
+    - 3.2.0
+    - 3.2.2
+    - 3.2.3
+    - 3.3.0
+    - 3.3.2-preview
+    - 3.3.2
+    - 3.3.4
+    - 3.3.5
+    - 3.4.0
+    - 3.5.3
+    - 3.6.11
+    - 3.6.12
+    - 3.7.1
     - 3.8.1
     compatible:
     - 3.8.1
     recommended: 3.8.1
     deprecated: []
   dependencies:
-  - name: com.unity.services.analytics
-    version: 1.0.4
   - name: com.unity.ugui
     version: 1.0.0
-  resolvedDependencies:
   - name: com.unity.services.analytics
-    version: 5.0.0
+    version: 1.0.4
+  resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.services.analytics
+    version: 5.0.0
   - name: com.unity.services.core
     version: 1.12.5
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -417,7 +454,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637789683740000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -439,7 +476,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.4.4
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.collab-proxy@2.4.4"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.collab-proxy@2.4.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -594,7 +631,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.ide.rider@3.0.31"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.ide.rider@3.0.31
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -703,7 +740,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.23"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.ide.visualstudio@2.0.23
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -795,7 +832,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.ide.vscode@1.2.5"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -864,7 +901,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.11.0
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.purchasing@4.11.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.purchasing@4.11.0
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1006,11 +1043,11 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.services.core
     version: 1.12.5
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1050,7 +1087,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.test-framework@1.1.33"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1192,7 +1229,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1392,7 +1429,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.6
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.timeline@1.7.6"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1566,7 +1603,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.ugui@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1642,7 +1679,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.10
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@2.1.10"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -1651,7 +1688,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: XR
-  type: 
+  type: asset
   description: This package includes the tracked pose driver for the legacy input
     system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
     Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
@@ -1662,10 +1699,38 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
     - 2.1.10
+    - 2.1.11
+    - 2.1.12
     compatible:
     - 2.1.10
-    recommended: 2.1.10
+    - 2.1.11
+    - 2.1.12
+    recommended: 2.1.12
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -1699,7 +1764,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637958908030000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1721,7 +1786,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.ai@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1777,7 +1842,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.androidjni@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1832,7 +1897,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.animation@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1888,7 +1953,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.assetbundle@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1944,7 +2009,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.audio@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2000,7 +2065,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.cloth@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2060,7 +2125,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.director@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2124,7 +2189,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.imageconversion@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2181,7 +2246,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.imgui@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2237,7 +2302,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.jsonserialize@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2293,7 +2358,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.particlesystem@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2349,7 +2414,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.physics@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2405,7 +2470,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.physics2d@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2461,7 +2526,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.screencapture@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2521,7 +2586,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.terrain@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2577,7 +2642,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.terrainphysics@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2641,7 +2706,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.tilemap@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2700,7 +2765,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.ui@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2756,7 +2821,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.uielements@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2824,7 +2889,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.umbra@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2880,7 +2945,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.unityanalytics@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2944,7 +3009,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.unitywebrequest@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3000,7 +3065,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3064,7 +3129,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3128,7 +3193,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3192,7 +3257,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3272,7 +3337,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.vehicles@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3332,7 +3397,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.video@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3400,7 +3465,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.vr@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3470,7 +3535,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.wind@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3526,7 +3591,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.xr@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3594,7 +3659,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.modules.subsystems@1.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3654,7 +3719,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3726,7 +3791,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.12.5
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.services.core@1.12.5"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.services.core@1.12.5
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3735,7 +3800,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -3745,24 +3810,56 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
     - 1.12.5
+    - 1.13.0
+    - 1.14.0
     compatible:
     - 1.12.5
-    recommended: 
+    - 1.13.0
+    - 1.14.0
+    recommended: 1.14.0
     deprecated: []
   dependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords: []
   registry:
@@ -3775,7 +3872,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638481576230000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.12/manual/index.html
   hasRepository: 1
   repository:
@@ -3797,7 +3894,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.0
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.services.analytics@5.0.0"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.services.analytics@5.0.0
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -3871,11 +3968,11 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.services.core
     version: 1.12.5
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3912,7 +4009,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: "C:\\\uC720\uB2C8\uD2F0 \uBAA8\uC74C\\Proto5\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1"
+  resolvedPath: C:\GitHub\GameEngine\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json

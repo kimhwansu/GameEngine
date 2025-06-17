@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9C94351B-92FB-1300-F915-E4E266BE5F06}</ProjectGuid>
+    <ProjectGuid>{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,7 +63,9 @@
     <Compile Include="Assets\Scripts\DI\DIContainer.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Scripts\Installers\Installer.cs" />
     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
+    <Compile Include="Assets\Scripts\Installers\GameInstaller.cs" />
     <Compile Include="Assets\Scripts\DifficultyButton.cs" />
     <Compile Include="Assets\Scripts\DI\InjectAttribute.cs" />
     <Compile Include="Assets\Scripts\DI\GameDIContainer.cs" />
