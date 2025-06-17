@@ -1,0 +1,44 @@
+{
+    "targets": [
+        {
+            "prefabName": "Barrel_01",
+            "pointValue": 10,
+            "tag": "Untagged",
+            "minSpeed": 5,
+            "maxSpeed": 8,
+            "maxTorque": 10,
+            "xRange": 4,
+            "ySpawnPos": -6
+        },
+        {
+            "prefabName": "Barrel_02",
+            "pointValue": 15,
+            "tag": "Untagged",
+            "minSpeed": 3,
+            "maxSpeed": 6,
+            "maxTorque": 10,
+            "xRange": 4,
+            "ySpawnPos": -6
+        },
+        {
+            "prefabName": "Crate_Question_01",
+            "pointValue": 0,
+            "tag": "Untagged",
+            "minSpeed": 7,
+            "maxSpeed": 10,
+            "maxTorque": 15,
+            "xRange": 4,
+            "ySpawnPos": -6
+        },
+        {
+            "prefabName": "Skull_01",
+            "pointValue": -30,
+            "tag": "Bad",
+            "minSpeed": 7,
+            "maxSpeed": 10,
+            "maxTorque": 13,
+            "xRange": 4,
+            "ySpawnPos": -6
+        }
+    ]
+}

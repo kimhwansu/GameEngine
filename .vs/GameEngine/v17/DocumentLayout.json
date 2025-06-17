@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\GitHub\\GameEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|c:\\github\\gameengine\\assets\\scripts\\installers\\installer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\installer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|c:\\github\\gameengine\\assets\\scripts\\data\\excelconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\excelconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|c:\\github\\gameengine\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|c:\\github\\gameengine\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|c:\\github\\gameengine\\assets\\scripts\\di\\gamedicontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\di\\gamedicontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|C:\\GitHub\\GameEngine\\assets\\scripts\\difficultybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\difficultybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|c:\\github\\gameengine\\assets\\scripts\\installers\\gameinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\gameinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|C:\\GitHub\\GameEngine\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|C:\\GitHub\\GameEngine\\assets\\scripts\\installers\\installer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBDA2ED-6E32-3A04-8102-CB0CC212F884}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\installer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameDIContainer.cs",
+              "DocumentMoniker": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\DI\\GameDIContainer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DI\\GameDIContainer.cs",
+              "ToolTip": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\DI\\GameDIContainer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DI\\GameDIContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:26:47.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExcelConverter.cs",
+              "DocumentMoniker": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\Data\\ExcelConverter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ExcelConverter.cs",
+              "ToolTip": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\Data\\ExcelConverter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\ExcelConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:23:22.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameInstaller.cs",
+              "DocumentMoniker": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "ToolTip": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwA8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:22:04.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Target.cs",
+              "DocumentMoniker": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\Target.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",
+              "ToolTip": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\Target.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Target.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxMAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:09:57.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DifficultyButton.cs",
+              "DocumentMoniker": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\DifficultyButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DifficultyButton.cs",
+              "ToolTip": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\DifficultyButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DifficultyButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:09:46.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Installer.cs",
               "DocumentMoniker": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\Installers\\Installer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\Installer.cs",
@@ -30,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Installers\\Installer.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAwBkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:03:45.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:03:45.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\GitHub\\GameEngine\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -43,8 +127,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:01:14.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:01:14.781Z"
             }
           ]
         }

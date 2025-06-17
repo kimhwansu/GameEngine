@@ -2,6 +2,7 @@ using UnityEngine;
 using UJ.DI;
 using TMPro;
 using UnityEngine.UI;
+using UJ.Data;
 
 namespace UJ.Installers
 {
@@ -13,6 +14,7 @@ namespace UJ.Installers
         [SerializeField] private Button restartButton;
         [SerializeField] private GameObject titleScreen;
         [SerializeField] private DifficultyButton[] difficultyButtons;
+        [SerializeField] public TargetDataList targetDataList;
 
         private void Awake()
         {
@@ -30,6 +32,14 @@ namespace UJ.Installers
             if (gameManager != null)
             {
                 container.Regist(gameManager);
+            }
+
+            if (targetDataList != null)
+            {
+                foreach (var data in targetDataList.targets)
+                {
+                    container.Regist(data, data.prefabName);
+                }
             }
         }
 
